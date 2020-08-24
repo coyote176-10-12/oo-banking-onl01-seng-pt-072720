@@ -19,7 +19,9 @@ class BankAccount
   end
   
   def valid 
-    @balance < 0 
+    status == @balance > 0 
+  
   end
+  
 
 end
