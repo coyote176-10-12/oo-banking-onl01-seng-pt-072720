@@ -6,7 +6,7 @@ class Transfer
     @sender= sender
     @receiver= receiver
     @status= "pending"
-    @transfer= transfer
+    @transfer= amount
     
   end
 end
